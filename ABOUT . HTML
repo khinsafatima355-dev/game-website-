@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About My Gaming World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ABOUT MY WEBSITE 🎮</h1>
+    <a href="index.html">HOME</a>
+</header>
+
+<main>
+    <h2>Welcome Gamers!</h2>
+
+    <p>This is my first gaming website.</p>
+
+    <p>I love HTML, CSS and JavaScript!</p>
+
+    <h2>THANK YOU! ❤️</h2>
+</main>
+
+</body>
+</html>
