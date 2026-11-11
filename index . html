@@ -1,0 +1,69 @@
+<html>
+<body>
+
+<h1>My School</h1>
+
+<p>My school is very beautiful.</p>
+
+<h2>My Best Friend</h2>
+
+<p>My best friend is very kind.</p>
+
+</body>
+</html><h1>My Pet</h1>
+
+<p>I have a cute cat.</p>
+
+<h2>My Cat's Name</h2>
+
+<p>Her name is Kitty.</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, purple, blue);
+            text-align: center;
+            font-family: Arial;
+            color: white;
+        }
+
+        h1 {
+            color: yellow;
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        button {
+            background: orange;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🌟 Welcome To My Website 🌟</h1>
+
+    <h2>My First HTML Website</h2>
+
+    <p>Hello! My name is Student.</p>
+
+    <p>Welcome to my colourful website!</p>
+
+    <button onclick="alert('Welcome! 🎉')">
+        Click Me!
+    </button>
+
+</body>
+</html>
