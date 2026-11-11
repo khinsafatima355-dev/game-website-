@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Gaming Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🏆 MY GAME SCORE 🏆</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="score.html">Score</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2>🎮 Welcome Gamer!</h2>
+
+    <p>Your Current Score:</p>
+
+    <h1 id="score">0</h1>
+
+    <button onclick="increaseScore()">
+        + ADD SCORE
+    </button>
+
+    <button onclick="resetScore()">
+        RESET SCORE
+    </button>
+
+</main>
+
+<script>
+    let score = 0;
+
+    function increaseScore() {
+        score = score + 1;
+
+        document.getElementById("score").innerHTML = score;
+    }
+
+    function resetScore() {
+        score = 0;
+
+        document.getElementById("score").innerHTML = score;
+    }
+</script>
+
+</body>
+</html>
