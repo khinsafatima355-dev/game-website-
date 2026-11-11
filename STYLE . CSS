@@ -1,0 +1,50 @@
+
+body {
+    background-color: #10002b;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #3c096c;
+    padding: 25px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    padding: 70px 15px;
+}
+
+h2 {
+    color: #ff006e;
+    font-size: 35px;
+}
+
+.button {
+    background-color: #ff006e;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
