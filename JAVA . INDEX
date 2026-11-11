@@ -1,0 +1,40 @@
+
+let score = 0;
+
+function playGame() {
+    score = score + 1;
+
+    alert("🎮 Great! You earned 1 point!");
+
+    console.log("Your Score: " + score);
+/.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🎮 MY GAMES</h1>
+    <a href="index.html">Home</a>
+</header>
+
+<main>
+    <h2>Choose Your Game!</h2>
+
+    <button onclick="playGame()">
+        Play Game 🚀
+    </button>
+
+    <p>Have Fun!</p>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
